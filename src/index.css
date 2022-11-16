@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), local("Poppins-regular"),
+    url("/public/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), local("Poppins-Medium"),
+    url("/public/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), local("Poppins-Bold"),
+    url("/public/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), local("Inter-regular"),
+    url("/public/fonts/Inter/Inter-regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), local("Inter-Medium"),
+    url("/public/fonts/Inter/Inter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), local("Inter-Bold"),
+    url("/public/fonts/Inter/Poppins-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  max-width: 1500px;
+  margin: auto;
+}

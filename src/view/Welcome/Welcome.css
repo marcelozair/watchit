@@ -1,0 +1,37 @@
+.welcome {
+  @apply w-screen h-screen min-h-screen bg-hero bg-no-repeat bg-cover;
+}
+
+.welcome__wrapper {
+  @apply  flex flex-col justify-center h-full w-[90%] mx-auto;
+}
+
+.welcome_logo {
+  @apply md:w-[300px] w-[200px] md:mb-16 mb-10 lg:mx-0 mx-auto;
+}
+
+.welcome__title {
+  @apply lg:text-[50px] text-[30px] text-white font-bold lg:w-1/2 md:w-[70%] w-full mb-[30px] lg:text-left text-center lg:mx-0 mx-auto;
+}
+
+.welcome___line-gradient {
+  background: linear-gradient(90deg, #FFFFFF 0.69%, #FF9078 100%);
+  @apply md:h-[25px] h-[15px] lg:w-1/2 md:w-[70%] w-full bg-white rounded-md lg:mx-0 mx-auto;
+}
+
+.welcome__description {
+  @apply md:text-[25px] text-[18px] lg:text-left text-center text-white mt-[25px] font-light;
+}
+
+.welcome__buttons {
+  @apply flex md:flex-row flex-col gap-5 mt-[25px] lg:justify-start justify-center;
+}
+
+.welcome-button {
+  background: linear-gradient(90deg, #5F4CD7 0.69%, #FF9078 100%);
+  @apply px-8 py-5 text-white font-semibold rounded-md;
+}
+
+.welcome-button-white {
+  @apply bg-white px-8 py-5 text-letters-black font-semibold rounded-md;
+}
