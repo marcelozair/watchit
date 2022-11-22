@@ -6,12 +6,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        site: {
+          primary: "#FFD600"
+        },
         letters: {
           black: "#242424"
         }
       },
       backgroundImage: {
-        hero: "url('/images/svg/watchit-hero.svg')"
+        hero: "url('/images/jpg/watchit-hero.jpg')"
       }
     }
   },

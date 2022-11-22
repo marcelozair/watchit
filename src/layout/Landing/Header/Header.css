@@ -1,0 +1,15 @@
+.watchit-logo {
+  @apply w-[130px];
+}
+
+.wrapper-hero {
+  @apply mx-auto w-[90%];
+}
+
+.header-hero {
+  @apply h-[80px];
+}
+
+.nav-hero {
+  @apply w-full h-[80px] flex items-center justify-between;
+}
