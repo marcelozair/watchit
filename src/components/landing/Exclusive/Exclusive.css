@@ -1,0 +1,15 @@
+.exclusive {
+  @apply py-[150px];
+}
+
+.exclusive__title {
+ @apply text-white font-bold text-[30px] text-center;
+}
+
+.exclusive__description {
+  @apply text-white text-[20px] mt-2 text-center mb-8;
+}
+
+.exclusive__image {
+  @apply mx-auto block;
+}
