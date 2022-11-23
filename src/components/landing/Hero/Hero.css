@@ -1,5 +1,5 @@
 .hero {
-  @apply w-screen h-screen min-h-screen bg-hero bg-no-repeat bg-cover;
+  @apply w-full h-screen min-h-screen bg-hero bg-no-repeat bg-cover;
 }
 
 .wrapper-hero {

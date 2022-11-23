@@ -1,0 +1,19 @@
+.plataform {
+  @apply py-[150px] flex gap-10 items-center justify-center;
+}
+
+.plataform__container-text {
+  @apply w-[40%]
+}
+
+.plataform__title {
+  @apply text-white font-bold text-[30px];
+}
+
+.plataform__description {
+  @apply text-white text-[20px] mt-2;
+}
+
+.plataform__images {
+  @apply flex gap-10 mt-10;
+}

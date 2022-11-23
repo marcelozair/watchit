@@ -8,7 +8,10 @@ export const Hero = () => {
       <Header />
       <div className="wrapper-hero hero-container">
         {/* <img className="watchit-logo-hero" src="/images/svg/watchit-logo.svg" /> */}
-        <h1 className="hero__title">LAS MEJORES PELICULAS DEL MOMENTO EN UN SOLO LUGAR</h1>
+        <h1 className="hero__title">
+          LAS MEJORES <span className="text-site-primary">PELICULAS</span> DEL MOMENTO EN UN SOLO
+          LUGAR
+        </h1>
         <p className="hero__subtitle">
           Que esperas para aprovechar todas nuestras ofertas y promociones.
         </p>
