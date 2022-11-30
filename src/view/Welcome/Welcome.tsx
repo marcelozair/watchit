@@ -1,5 +1,6 @@
 import "./Welcome.css";
 import { Hero } from "../../components/landing/Hero/Hero";
+import { Footer } from "../../layout/Landing/Footer/Footer";
 import { Plataform } from "../../components/landing/Plataform/Plataform";
 import { Exclusive } from "../../components/landing/Exclusive/Exclusive";
 
@@ -9,6 +10,7 @@ export const Welcome = () => {
       <Hero />
       <Plataform />
       <Exclusive />
+      <Footer />
     </section>
   );
 };

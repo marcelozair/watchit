@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       colors: {
         site: {
-          primary: "#FFD600"
+          primary: "#FFD600",
+          footer: "#252525"
         },
         letters: {
           black: "#242424"
